@@ -12,3 +12,8 @@ conda install -c conda-forge pycocotools
 conda install cython scipy
 ````
 또한, 위의 코드를 이용해서 pycocotools와 cython, scipy를 설치해 주었습니다.
+
+## Data preparation
+COCO 2017 Dataset을 이용했습니다.
+
+![image](https://github.com/kimsy9587/DETR/assets/131329056/b7eeb163-cde8-4d2c-ae37-659b314d4701)
