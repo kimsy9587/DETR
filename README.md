@@ -1,7 +1,7 @@
 # DETR
 AI특론 과제
 
-출처: https://github.com/facebookresearch/detr
+코드 출처: https://github.com/facebookresearch/detr
 
 ## Requirements
 저의 경우에는 gpu 서버를 가지고 conda 가상환경을 만들어서 이용했습니다.
