@@ -17,3 +17,5 @@ conda install cython scipy
 COCO 2017 Dataset을 이용했습니다.
 
 ![image](https://github.com/kimsy9587/DETR/assets/131329056/b7eeb163-cde8-4d2c-ae37-659b314d4701)
+
+위의 사진대로 COCO Dataset을 구성했습니다.
