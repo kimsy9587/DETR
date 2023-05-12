@@ -5,8 +5,7 @@ AI특론 과제
 
 ## Requirements
 저의 경우에는
-python 3.9
-torch=1.11.0, torchvision=0.12.0
+python 3.9, torch=1.11.0, torchvision=0.12.0를 설치하였고, 
 ````
 conda install -c conda-forge pycocotools
 ````
