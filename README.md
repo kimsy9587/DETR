@@ -18,4 +18,24 @@ COCO 2017 Dataset을 이용했습니다.
 
 ![image](https://github.com/kimsy9587/DETR/assets/131329056/b7eeb163-cde8-4d2c-ae37-659b314d4701)
 
-위의 사진대로 COCO Dataset을 구성했습니다.
+위의 사진대로 coco 디렉토리를 만들어서 COCO Dataset을 구성했습니다.
+
+## Training
+![image](https://github.com/kimsy9587/DETR/assets/131329056/248fb232-7e12-456d-a385-6231f50f0948)
+서버에 output 디렉토리를 만들고 경로를 지정해 줬습니다. 
+
+![image](https://github.com/kimsy9587/DETR/assets/131329056/2ebca0fd-6b23-4328-a2b6-dd5b3499a528)
+dataset의 용량이 커서 epoch을 13까지밖에 못 돌렸는데 이런 결과값이 나왔습니다.
+
+![image](https://github.com/kimsy9587/DETR/assets/131329056/2f0754b7-9e3d-40ed-b2ed-5840a9af4986) 
+또한 output 디렉토리에 checkpoint.pth가 저장이 됩니다.
+
+## Evaluation
+````
+python main.py --batch_size 2 --no_aux_loss --eval --resume checkpoint.pth --coco_path /path/to/coco
+````
+main.py, checkpoint.pth, coco_path의 경로를 설정해 주어야 합니다.
+
+![image](https://github.com/kimsy9587/DETR/assets/131329056/175275c3-58d8-4f3c-9777-6caed347bda5)
+![image](https://github.com/kimsy9587/DETR/assets/131329056/23c6ab18-89cc-43fc-8c20-d14a3ef92d48)
+
