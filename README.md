@@ -6,7 +6,7 @@ AI특론 과제
 ## Requirements
 저의 경우에는 gpu 서버를 가지고 conda 가상환경을 만들어서 이용했습니다.
 
-python 3.9, torch=1.11.0, torchvision=0.12.0을 설치하였고, (다른 버전의 torch와 torchvision을 설치한 결과 코드가 작동하지 않았습니다.) 
+python 3.9, torch=1.11.0, torchvision=0.12.0을 설치하였고, (다른 버전의 torch와 torchvision을 설치한 결과, 코드가 작동하지 않았습니다.) 
 ````
 conda install -c conda-forge pycocotools
 conda install cython scipy
