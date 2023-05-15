@@ -16,18 +16,22 @@ conda install cython scipy
 ## Data preparation
 COCO 2017 Dataset을 이용했습니다.
 
-![image](https://github.com/kimsy9587/DETR/assets/131329056/b7eeb163-cde8-4d2c-ae37-659b314d4701)
+![image](https://github.com/kimsy9587/DETR/assets/131329056/e2c82ad7-2574-4b6f-847e-4189d60eeba5)
+
 
 위의 사진대로 coco 디렉토리를 만들어서 COCO Dataset을 구성했습니다.
 
 ## Training
-![image](https://github.com/kimsy9587/DETR/assets/131329056/248fb232-7e12-456d-a385-6231f50f0948)
+![image](https://github.com/kimsy9587/DETR/assets/131329056/31ce53c3-fea9-42a1-ae26-d3845f0917e6)
+
 서버에 output 디렉토리를 만들고 경로를 지정해 줬습니다. 
 
-![image](https://github.com/kimsy9587/DETR/assets/131329056/2ebca0fd-6b23-4328-a2b6-dd5b3499a528)
+![image](https://github.com/kimsy9587/DETR/assets/131329056/699d46c7-4bb3-4182-aa27-9d70d5568000)
+
 dataset의 용량이 커서 epoch을 13까지밖에 못 돌렸는데 이런 결과값이 나왔습니다.
 
-![image](https://github.com/kimsy9587/DETR/assets/131329056/2f0754b7-9e3d-40ed-b2ed-5840a9af4986) 
+![image](https://github.com/kimsy9587/DETR/assets/131329056/86e4183a-33bc-4442-841c-d3b3a66abdee)
+
 또한 output 디렉토리에 checkpoint.pth가 저장이 됩니다.
 
 ## Evaluation
