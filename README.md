@@ -40,6 +40,6 @@ python main.py --batch_size 2 --no_aux_loss --eval --resume checkpoint.pth --coc
 ````
 main.py, checkpoint.pth, coco_path의 경로를 설정해 주어야 합니다.
 
-![image](https://github.com/kimsy9587/DETR/assets/131329056/175275c3-58d8-4f3c-9777-6caed347bda5)
-![image](https://github.com/kimsy9587/DETR/assets/131329056/23c6ab18-89cc-43fc-8c20-d14a3ef92d48)
+![image](https://github.com/kimsy9587/DETR/assets/131329056/aa343c00-3d02-4089-acb6-36472935a950)
+
 저는 위의 사진과 같은 결과가 나왔는데 왜 이런 결과가 나왔는지, 이 결과가 괜찮은 결과인지 파악해 볼 예정입니다.
