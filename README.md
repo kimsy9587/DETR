@@ -1,6 +1,7 @@
 # DETR
 AI특론 과제
 
+논문 출처: https://arxiv.org/abs/2005.12872
 코드 출처: https://github.com/facebookresearch/detr
 
 ## Requirements
