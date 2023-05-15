@@ -24,9 +24,13 @@ COCO 2017 Dataset을 이용했습니다.
 위의 사진대로 coco 디렉토리를 만들어서 COCO Dataset을 구성했습니다.
 
 ## Training
+![image](https://github.com/kimsy9587/DETR/assets/131329056/d9eccb7b-8b81-46c9-a988-dfb8b075e7aa)
+
+COCO dataset의 경로를 지정해 줍니다.
+
 ![image](https://github.com/kimsy9587/DETR/assets/131329056/31ce53c3-fea9-42a1-ae26-d3845f0917e6)
 
-서버에 output 디렉토리를 만들고 경로를 지정해 줬습니다. 
+서버에 output 디렉토리를 만들고 경로를 지정해주고 실행해 줍니다. 
 
 ![image](https://github.com/kimsy9587/DETR/assets/131329056/699d46c7-4bb3-4182-aa27-9d70d5568000)
 
